@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<div class="container docs-container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="sidebar hidden-print" role="complementary">
+        {% include lefttree.html %} 
+      </div>
+    </div>
+    <div class="col-md-9" role="main">
+      <div class="panel docs-content">
+        <div class="wrapper">
+            <header class="post-header">
+              <h1 class="post-title">{{ page.title }}</h1>
+              <!--
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+              -->
+              <div class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span> By <a target="_blank" href="{{site.url}}">{{ site.author }}</a></div>
+              <br />
+            </header>
+            <article class="post-content">
+              {{ content }}
+              <div style="height: 19px;width: 100%;"></div>
+              <HR style="border:1 dashed #987cb9" width="80%" color=#987cb9 SIZE=1>
+              {% if page.title %}
+                  <div id="gitmentContainer"></div>
+              {% endif %}
+            </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+<script src="https://billts.site/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+    id: '{{ page.title }}',
+    owner: 'TankZhouFirst',
+    repo: 'TankZhouFirst.github.io',
+    oauth: {
+        client_id: '2d1f1ece2fe868fc719b',
+        client_secret: '62a189180197b21587574b2be3e047eeca0abf51',
+    },
+});
+gitment.render('gitmentContainer');
+</script>

@@ -1,0 +1,71 @@
+<header class="navbar navbar-inverse navbar-fixed-top docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">
+        <img src="{{ '/styles/images/logo.jpg' | prepend: site.baseurl }}">
+      </a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">    
+        <li>
+          <a href="{{ '/' | prepend: site.baseurl }}">文章列表</a>
+        </li>
+        <li>
+          <a href="{{ '/categories/' | prepend: site.baseurl }}">分类归档</a>
+        </li>
+        <li>
+          <a href="{{ '/tag' | prepend: site.baseurl }}">专题整理</a>
+        </li>
+        <li>
+          <a href="{{ '/projects' | prepend: site.baseurl }}">个人项目</a>
+        </li>
+        <li>
+            <a>
+                <img src="" width="25px"/>
+            </a>
+        </li>
+        <li>
+            <a>
+                <img src="" width="25px"/>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/TankZhouFirst">
+                <img src="{{'/images/GitHub.png'}}" width="25px"/>
+            </a>
+        </li>
+        <li>
+          <a href="{{ '/Projects' | prepend: site.baseurl }}">
+              <img src="{{'/images/projects.jpg'}}" width="25px"/>
+          </a>
+        </li>
+        <li>
+            <a href="https://www.zhihu.com/people/tankzhouNo1/posts">
+                <img src="{{'/images/知乎.svg'}}" width="25px"/>
+            </a>
+        </li>
+        <li>
+            <a href="{{ '/Profile' | prepend: site.baseurl }}">
+                <img src="{{'/images/简历.png'}}" width="25px"/>
+            </a>
+        </li>
+        <li>
+            <a href="{{ '/feed.xml' | prepend: site.baseurl }}">
+                <img src="{{'/images/RSS.svg'}}" width="25px"/>
+            </a>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a><span id="busuanzi_container_site_pv">本站总访问量 <span id="busuanzi_value_site_pv"></span> 次</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,29 @@
+# Site settings
+name: 会飞的咸鱼
+email: 1872401653@qq.com
+author: TankZhou
+url: https://TankZhouFirst.github.io
+resume_site: https://www.zhihu.com/people/tankzhouNo1/posts
+github: https://github.com/TankZhouFirst
+baseurl: ""
+description: 不积跬步，无以至千里！
+meta_description: 周枫;个人博客;博学而笃志，切问而近思
+motto: Stay hungry, Stay foolish!
+banner: 博学而笃志，切问而近思
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: TankZhouFirst
+
+# Build settings
+markdown: kramdown
+
+baidu_analysis: 4985e01d75ce5520cc1f03529126c8eb
+revolvermaps: 50m7hx3vmr2
+
+plugins:
+- jekyll-sitemap # jekyll 的站点地图插件，用于生成站点地图

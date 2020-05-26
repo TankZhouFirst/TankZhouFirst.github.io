@@ -1,0 +1,36 @@
+<div class="docs-header" id="content">
+  <div class="container">
+  	{% if page.title%}
+		    <h1>{{ site.motto }}</h1>
+    {% else %}
+	    <h1>{{ site.name }}</h1>
+	    <p>{{ site.description }}</p>
+    {% endif %}
+  </div>
+  <div>
+    <!-- HTML elements for search -->
+    <div class="container" id="search-container" style="background-color: #1d365d;">
+      <input type="text" id="search-input" style="border-style:none; background-color: #636a75; color: #2615bb;" placeholder="search...">
+      <ul id="results-container"></ul>
+    </div>
+  
+    <!-- script pointing to jekyll-search.js -->
+    <script src="/styles/js/simple-jekyll-search.js"></script>
+  </div>
+</div>
+
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="/styles/js/simple-jekyll-search.js" type="text/javascript"></script>
+
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: '没有搜索到文章',
+    limit: 100,
+    fuzzy: false
+  })
+</script>
