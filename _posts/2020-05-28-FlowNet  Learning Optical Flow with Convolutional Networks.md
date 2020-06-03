@@ -14,7 +14,6 @@ tag: 光流估计
 
 > **未经许可，严禁任何形式的转载！**
 
-
 ****
 
 **参考**
@@ -55,7 +54,7 @@ tag: 光流估计
 本文提出了两种模型结构，如下所示：
 
 <div style="text-align:center">
-<img src="/images/The two network architectures FlowNetSimple (top) and FlowNetCorr (bottom).png" width="95%">
+<img src="/images/The two network architectures: FlowNetSimple (top) and FlowNetCorr (bottom).png" width="95%">
 </div><br>
 
 
