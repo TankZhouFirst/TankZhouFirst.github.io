@@ -50,7 +50,7 @@ tag: 图像分类
     >   可能是因为更大尺寸的特征图能提供更多的信息。
 
 <div style="text-align:center">
-<img src="//images/fire module.PNG" width="60%">
+<img src="/images/fire module.PNG" width="60%">
 <p>图 1：fire module</p>
 </div><br>
 
@@ -79,7 +79,7 @@ tag: 图像分类
 如下图所示，为 **Squeeze** 模型的架构及其变体，从左至右依次为：标准、**simple bypass** 和 **complex bypass ** 三个版本。
 
 <div style="text-align:center">
-<img src="//images/squeeze 网络架构.PNG" width="98%">
+<img src="/images/squeeze 网络架构.PNG" width="98%">
 <p>图 2：squeeze 网络架构</p>
 </div><br>
 
@@ -93,16 +93,16 @@ tag: 图像分类
 # 试验与结果
 
 <div style="text-align:center">
-<img src="//images/模型压缩相关.PNG" width="98%">
+<img src="/images/模型压缩相关.PNG" width="98%">
 <p>表 1 ：模型压缩相关</p>
 </div><br>
 
 <div style="text-align:center">
-<img src="//images/模型尺寸与精度.PNG" width="95%">
+<img src="/images/模型尺寸与精度.PNG" width="95%">
 <p>图 3 ：模型尺寸与精度</p>
 </div><br>
 
 <div style="text-align:center">
-<img src="//images/bypass 的影响.PNG" width="85%">
+<img src="/images/bypass 的影响.PNG" width="85%">
 <p>表 2：bypass 的影响</p>
 </div><br>

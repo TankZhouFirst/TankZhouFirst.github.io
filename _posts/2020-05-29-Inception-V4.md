@@ -50,7 +50,7 @@ tag: 图像分类
 ### 整体结构
 
 <div style="text-align:center">
-<img src="images/Inception V4.PNG" width="40%">
+<img src="/images/Inception V4.PNG" width="40%">
 <p>图 1：Inception V4</p>
 </div><br>
 
@@ -61,21 +61,21 @@ tag: 图像分类
 >   **未标记 V 的为 same padding，剩余的为 valid padding。**
 
 <div style="text-align:center">
-<img src="images/Stem.PNG" width="55%">
+<img src="/images/Stem.PNG" width="55%">
 <p>图 2：Stem</p>
 </div><br>
 
 #### Inception-A
 
 <div style="text-align:center">
-<img src="images/Inception A.PNG" width="85%">
+<img src="/images/Inception A.PNG" width="85%">
 <p>图 3：Inception-A</p>
 </div><br>
 
 #### Inception-B
 
 <div style="text-align:center">
-<img src="images/Inception B.PNG" width="85%">
+<img src="/images/Inception B.PNG" width="85%">
 <p>图 4：Inception-B</p>
 <p>注释：第三列应该为 7 * 1，属笔误</p>
 </div><br>
@@ -83,21 +83,21 @@ tag: 图像分类
 #### Inception-C
 
 <div style="text-align:center">
-<img src="images/Inception C.PNG" width="90%">
+<img src="/images/Inception C.PNG" width="90%">
 <p>图 5：Inception-C</p>
 </div><br>
 
 #### Reduction-A
 
 <div style="text-align:center">
-<img src="images/Reduction-A.PNG" width="70%">
+<img src="/images/Reduction-A.PNG" width="70%">
 <p>图 6：Reduction-A</p>
 </div><br>
 
 #### Reduction-B
 
 <div style="text-align:center">
-<img src="images/Reduction-B.PNG" width="70%">
+<img src="/images/Reduction-B.PNG" width="70%">
 <p>图 7：Reduction-B</p>
 </div><br>
 
@@ -106,7 +106,7 @@ tag: 图像分类
 ### 整体结构
 
 <div style="text-align:center">
-<img src="images/Inception-Res arch.PNG" width="45%">
+<img src="/images/Inception-Res arch.PNG" width="45%">
 <p>图 8：Inception-Res arch</p>
 </div><br>
 
@@ -117,43 +117,43 @@ tag: 图像分类
 `Inception-ResNet v1` 的输入如下，`Inception-ResNet v2` 的输入，见图 2。
 
 <div style="text-align:center">
-<img src="images/Stem for In-Res-v1.PNG" width="35%">
+<img src="/images/Stem for In-Res-v1.PNG" width="35%">
 <p>图 9：Stem</p>
 </div><br>
 
 #### Inception-ResNet-A
 
 <div style="text-align:center">
-<img src="images/In-Res-A-v1.PNG" width="70%">
+<img src="/images/In-Res-A-v1.PNG" width="70%">
 <p>图 10：In-Res-A-v1</p>
 </div><br>
 
 <div style="text-align:center">
-<img src="images/In-Res-A-v2.PNG" width="70%">
+<img src="/images/In-Res-A-v2.PNG" width="70%">
 <p>图 11：In-Res-A-v2</p>
 </div><br>
 
 #### Inception-ResNet-B
 
 <div style="text-align:center">
-<img src="images/In-Res-B-v1.PNG" width="60%">
+<img src="/images/In-Res-B-v1.PNG" width="60%">
 <p>图 12：In-Res-B-v1</p>
 </div><br>
 
 <div style="text-align:center">
-<img src="images/In-Res-B-v2.PNG" width="60%">
+<img src="/images/In-Res-B-v2.PNG" width="60%">
 <p>图 13：In-Res-B-v2</p>
 </div><br>
 
 #### Inception-ResNet-C
 
 <div style="text-align:center">
-<img src="images/In-Res-C-v1.PNG" width="60%">
+<img src="/images/In-Res-C-v1.PNG" width="60%">
 <p>图 14：In-Res-C-v1</p>
 </div><br>
 
 <div style="text-align:center">
-<img src="images/In-Res-C-v2.PNG" width="60%">
+<img src="/images/In-Res-C-v2.PNG" width="60%">
 <p>图 15：In-Res-C-v2</p>
 </div><br>
 
@@ -162,19 +162,19 @@ tag: 图像分类
 >   **同图 6**，参数如下：
 
 <div style="text-align:center">
-<img src="images/parameter of Reduction-A.PNG" width="65%">
+<img src="/images/parameter of Reduction-A.PNG" width="65%">
 <p>表 1：parameter of Reduction-A</p>
 </div><br>
 
 #### Reduction-B
 
 <div style="text-align:center">
-<img src="images/ReductionB-v1.PNG" width="80%">
+<img src="/images/ReductionB-v1.PNG" width="80%">
 <p>图 16：ReductionB-v1</p>
 </div><br>
 
 <div style="text-align:center">
-<img src="images/ReductionB-v2.PNG" width="80%">
+<img src="/images/ReductionB-v2.PNG" width="80%">
 <p>图 17：ReductionB-v2</p>
 </div><br>
 
@@ -183,12 +183,12 @@ tag: 图像分类
 实验中发现，特征图数目接近 `1000` 时，网络可能假死，可通过降低残差连接来稳定训练：
 
 <div style="text-align:center">
-<img src="images/general schema for scaling combined Inceptionresnet moduels.PNG" width="35%">
+<img src="/images/general schema for scaling combined Inceptionresnet moduels.PNG" width="35%">
 <p>图 18：general schema for scaling combined Inceptionresnet moduels</p>
 </div><br>
 
 <div style="text-align:center">
-<img src="images/Single crop - single model experimental results.PNG" width="65%">
+<img src="/images/Single crop - single model experimental results.PNG" width="65%">
 <p>表 2：single crop-single model experimental results</p>
 </div><br>
 
