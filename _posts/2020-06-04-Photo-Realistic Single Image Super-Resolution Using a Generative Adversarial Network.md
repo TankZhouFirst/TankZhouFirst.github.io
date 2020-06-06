@@ -21,7 +21,7 @@ tag: 超分辨
 
 - [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial
     Network](https://arxiv.org/pdf/1609.04802.pdf)
-- https://github.com/david-gpu/srez
+- [Github](https://github.com/david-gpu/srez)
 
 ****
 
